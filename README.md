@@ -46,12 +46,12 @@ const records = diff(left, right)
 ```
 
 ## Api
-```
+```typescript
 function diff<T>(left: T, right: T, options?: Config): PatchRecord[]
 ```
 
 ## Interface
-```
+```typescript
 export interface AddedRecord {
   op: 'add'
   paths: (string | number)[]
